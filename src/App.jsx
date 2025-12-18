@@ -124,7 +124,7 @@ function App() {
                 <h1 className="hero-title animate-on-scroll">Annamalai</h1>
                 <p className="hero-subtitle animate-on-scroll">Celebrating 50 Years of Superstar Rajinikanth</p>
                 <p className="hero-tagline animate-on-scroll">
-                    100% of premiere profits go toward flood relief and education for displaced children.
+                    Most of premiere profits go toward flood relief and education for displaced children.
                 </p>
                 <a href="#packages" className="hero-cta animate-on-scroll">
                     View Sponsorship Packages →
@@ -233,9 +233,9 @@ function App() {
                         </div>
                         <div className="benefit-card animate-on-scroll">
                             <div className="benefit-icon">🎬</div>
-                            <h3 className="benefit-title">Premium Production</h3>
+                            <h3 className="benefit-title">Empty window till 9th of January</h3>
                             <p className="benefit-text">
-                                Gold sponsors receive <strong>FREE theatrical ad creation</strong> (worth LKR 75,000) — cinema-quality production for maximum impact.
+                                Gold sponsors receive <strong>There are no movies coming until the 9th of January</strong> (worth LKR 75,000) — cinema-quality production for maximum impact.
                             </p>
                         </div>
                         <div className="benefit-card animate-on-scroll">

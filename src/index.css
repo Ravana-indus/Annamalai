@@ -1097,10 +1097,49 @@ img {
 
 /* Responsive Parallax Adjustments */
 @media (max-width: 768px) {
+
+  .hero,
+  .about,
+  .packages,
+  .why-partner,
   .parallax-section {
-    min-height: 80vh;
-    background-attachment: scroll;
-    /* Better mobile performance */
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    min-height: auto;
+    /* Ensure content determines height on mobile if needed, though min-height: 80vh for parallax sections is okay */
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Adjust Hero Badge text size for mobile */
+  .hero-badge {
+    font-size: 0.75rem;
+    padding: 6px 16px;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  /* Prevent horizontal overflow from animations */
+  .hero-title,
+  .hero-tagline,
+  .hero-subtitle,
+  .hero-cta {
+    animation-name: none !important;
+    /* Disable entrance animations that might cause overflow */
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .parallax-section {
+    min-height: 50vh;
+    /* Reduced height for mobile */
   }
 
   .parallax-content {
@@ -1108,13 +1147,13 @@ img {
   }
 
   .content-box {
-    padding: 40px 24px;
+    padding: 30px 20px;
     border-radius: 16px;
   }
 
   .section-text {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    line-height: 1.6;
   }
 }
 
