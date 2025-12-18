@@ -235,7 +235,7 @@ function App() {
                             <div className="benefit-icon">🎬</div>
                             <h3 className="benefit-title">Empty window till 9th of January</h3>
                             <p className="benefit-text">
-                                Gold sponsors receive <strong>There are no movies coming until the 9th of January</strong> (worth LKR 75,000) — cinema-quality production for maximum impact.
+                                There are no movies <strong>coming until the 9th of January</strong> creating a perfect window.
                             </p>
                         </div>
                         <div className="benefit-card animate-on-scroll">
